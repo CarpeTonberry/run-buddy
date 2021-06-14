@@ -1,0 +1,47 @@
+* {
+    Margin: 0;
+    paddingL 0
+}
+
+body {
+    color: #39a6b2;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* apply styles to header */
+header {
+    padding: 20px 35px;
+    background-color: #39a6b2;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin: 0;
+    display: inline;
+}
+
+/* changes header a colors */
+header a {
+    text-decoration: none;
+    color: #fce138;
+}
+
+/* places <nav> text on the right side */
+header nav {
+    float: right;
+    margin: 7px 0;
+}
+
+/* places <nav> text in an inline style */
+header nav ul li {
+    display: inline;
+}
+
+/* spaces out <nav> text */
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22 px;
+}
